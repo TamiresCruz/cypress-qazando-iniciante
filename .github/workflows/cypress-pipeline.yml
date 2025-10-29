@@ -23,7 +23,7 @@ jobs:
       # quando eu qro executar qualquer coisa no terminal, 
       # eu simplesmente dou um run e boto o comando que eu qro
       - name: instalar dependencias do projeto
-        run: echo Tamires Cruz
+        run: npm install
 
       # Execução e configuração do projeto
       - name: Run testes
